@@ -1,0 +1,8 @@
+public class AccountCreate
+
+public static void createAccount(){
+
+Account acc = new Account(Name = 'First Account');
+insert acc;
+
+}
