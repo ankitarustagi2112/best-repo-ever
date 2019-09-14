@@ -1,3 +1,3 @@
 # best-repo-ever
 
-<p> This is my repository </p>
+This is a sample readmefile.
