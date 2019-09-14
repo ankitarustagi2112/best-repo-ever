@@ -5,4 +5,12 @@ public static void createAccount(){
 Account acc = new Account(Name = 'First Account');
 insert acc;
 
+Id accId = [Select id from Account where id=: acc.id];
+
+Contact con = new Contact();
+con.acc = accId;
+con.lastname = 'Rustagi';
+
+insert con;
+
 }
